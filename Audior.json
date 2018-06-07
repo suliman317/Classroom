@@ -1,0 +1,55 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1432151314000",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:*",
+                "ec2:MonitorInstances",
+                "elasticloadbalancing:DescribeLoadBalancers",
+                "rds:DescribeDBInstances",
+                "rds:ListTagsForResource",
+                "redshift:DescribeClusters",
+                "elasticache:DescribeCacheClusters",
+                "ec2:DescribeNetworkAcls",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:CopySnapshot",
+                "ec2:CreateSnapshot",
+                "ec2:createvolume"
+                "ec2:CreateTags",
+                "ec2:ModifyImageAttribute",
+                "ec2:ModifyInstanceAttribute",
+                "ec2:ModifySnapshotAttribute",
+                "ec2:ReportInstanceStatus",
+                "ec2:ResetSnapshotAttribute",
+                "ec2:DeleteSnapshot",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeConversionTasks",
+                "ec2:DescribeImageAttribute",
+                "ec2:DescribeImages",
+                "ec2:DescribeInstanceAttribute",
+                "ec2:DescribeInstanceStatus",
+                "ec2:DescribeInstances",
+                "ec2:DescribeSnapshotAttribute",
+                "ec2:DescribeSnapshots",
+                "ec2:DescribeTags",
+                "ec2:DeleteTags",
+                "ec2:DescribeVolumeAttribute",
+                "ec2:DescribeVolumeStatus",
+                "ec2:DescribeVolumes",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeVpcsRequest",
+                "ec2:StopInstances",
+                "ec2:StartInstances",
+                "lambda:*",
+                "apigateway:*",
+                "workspaces:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
